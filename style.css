@@ -141,4 +141,9 @@ h3{
 #service{
     display: block;
     padding: 70px 48px;
+    text-align: center;
+}
+#service p{
+    text-align: center;
+    padding: 0 20em;
 }
