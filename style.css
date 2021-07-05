@@ -57,6 +57,8 @@ nav{
 .menu li:hover a{
     color: lavenderblush;
 }
+
+/* home css */
 .col-lg{
     width: 50%;
 }
@@ -71,7 +73,7 @@ span{
     font-size: 48px;
     color: brown;
 }
-.pd{
+.pt{
     padding-top: 16em;
 }
 p{
@@ -98,4 +100,37 @@ p{
     color: lavenderblush;
 
 }
-/* home css */
+
+/* about css */
+#about{
+    display: block;
+}
+.col-lg{
+    float: left;
+}
+#about h1{
+    text-align: center;
+    font-size: 38px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h3{
+    color: brown;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    width: 25%;
+}
+.point{
+    list-style: circle;
+    margin: 18px;
+}
+.point li{
+    font-size: 18px;
+    color: grey;
+    line-height: 32px;
+}
+.fl{
+    float: left;
+}
