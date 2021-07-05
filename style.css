@@ -1,5 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     outline: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Zilla Slab', serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* nav css */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 48px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 22px 0px dimgray;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    padding: 8px 12px;
+
+}
+.menu a{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.menu li:hover{
+    background-color: darkblue;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+.menu li:hover a{
+    color: lavenderblush;
 }
