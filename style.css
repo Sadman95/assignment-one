@@ -71,6 +71,10 @@ nav{
 }
 
 /* home css */
+#home{
+    background: url(images/shapes/Frame\ 59.jpg) left top no-repeat;
+    background-size: cover;
+}
 .col-lg{
     width: 50%;
 }
@@ -150,9 +154,14 @@ h3{
 
 /* service css */
 #service{
+    background: url(images/shapes/7.png) left top no-repeat;
+    background-size: cover;
     display: block;
     padding: 70px 48px;
     text-align: center;
+    background-attachment: scroll;
+
+
 }
 .text-center{
     text-align: center;
@@ -205,8 +214,13 @@ h3{
     text-align: center;
 }
 form{
+    background: url(images/shapes/contact-bg.jpg) left top no-repeat;
+    background-size: cover;
+    padding: 40px 0;
     width: 60%;
     margin: auto;
+    border-radius: 8px;
+    background-attachment: fixed;
 }
 .form-group{
     padding: 8px;
