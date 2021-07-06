@@ -1,31 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     overflow-x: hidden;
     font-family: 'Zilla Slab', serif;
 }
-ul{
+
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-section{
+
+section {
     display: flex;
     padding: 68px 48px;
 }
 
 /* nav css */
-nav{
+nav {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -36,63 +41,77 @@ nav{
     width: 100%;
     z-index: 1;
 }
-.logo{
+
+.logo {
     display: flex;
 }
-.logo img{
+
+.logo img {
     height: 50px;
     width: 50px;
     border-radius: 50%;
 }
-.logo h1{
+
+.logo h1 {
     color: lavenderblush;
     padding: 6px 0 0 12px;
 }
-.menu{
+
+.menu {
     display: flex;
     align-items: center;
 }
-.menu li{
+
+.menu li {
     padding: 8px 12px;
 
 }
-.menu a{
+
+.menu a {
     font-size: 16px;
     text-transform: uppercase;
     color: lavenderblush;
 }
-.menu li:hover{
+
+.menu li:hover {
     background-color: lavenderblush;
     border-radius: 5px;
     transition: all 0.3s linear;
 }
-.menu li:hover a{
+
+.menu li:hover a {
     color: brown;
 }
 
 /* home css */
-#home{
+#home {
     background: url(images/shapes/Frame\ 59.jpg) left top no-repeat;
     background-size: cover;
 }
-.col-lg{
+
+.col-lg {
     width: 50%;
 }
-.col-lg img{
+
+.col-lg img {
     width: 100%;
 }
-h1{
+
+h1 {
     font-size: 32px;
     font-weight: 600;
 }
-span{
+
+span {
     font-size: 48px;
     color: brown;
 }
-.pt{
+
+.pt {
     padding-top: 10em;
 }
-p{
+
+p {
     line-height: 28px;
     text-align: justify;
     padding-right: 5rem;
@@ -101,7 +120,8 @@ p{
     margin-bottom: 36px;
     font-size: 18px;
 }
-.order-btn{
+
+.order-btn {
     display: block;
     float: right;
     text-transform: uppercase;
@@ -111,49 +131,57 @@ p{
     margin-right: 5em;
     transition: all 0.3s ease;
 }
-.order-btn:hover{
+
+.order-btn:hover {
     background-color: brown;
     color: lavenderblush;
 
 }
 
 /* about css */
-#about{
+#about {
     display: block;
     margin-bottom: 40em;
 }
-.col-lg{
+
+.col-lg {
     float: left;
 }
-#about h1{
+
+#about h1 {
     font-size: 38px;
 }
-h2{
+
+h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
-h3{
+
+h3 {
     color: brown;
     padding-bottom: 10px;
     border-bottom: 1px solid;
     width: 25%;
 }
-.point{
+
+.point {
     list-style: circle;
     margin: 18px;
 }
-.point li{
+
+.point li {
     font-size: 18px;
     color: grey;
     line-height: 32px;
 }
-.fl{
+
+.fl {
     float: left;
 }
 
 
 /* service css */
-#service{
+#service {
     background: url(images/shapes/7.png) left top no-repeat;
     background-size: cover;
     display: block;
@@ -163,57 +191,68 @@ h3{
 
 
 }
-.text-center{
+
+.text-center {
     text-align: center;
     padding: 0 20em;
 }
-.card{
+
+.card {
     display: flex;
     justify-content: space-around;
 }
-.card-col{
+
+.card-col {
     width: 30%;
     border-radius: 8px;
     box-shadow: 0px 4px 12px 0px darkgrey;
     padding: 28px 0;
     transition: all 0.3s ease-out;
 }
-.card-col img{
+
+.card-col img {
     width: 85%;
     height: 250px;
     border-radius: 8px;
     transform: scale(0.9);
     transition: all 0.3s ease-in;
 }
-.card-col p{
+
+.card-col p {
     padding: 0 46px;
     text-align: justify;
 }
-.card-col a{
+
+.card-col a {
     float: none;
     display: table;
     margin: auto;
 }
-.active-card{
+
+.active-card {
     transform: translateY(-15px);
 }
-.active-card img{
+
+.active-card img {
     transform: scale(1);
 }
-.card-col:hover{
+
+.card-col:hover {
     transform: translateY(-15px);
 }
-.card-col:hover img{
+
+.card-col:hover img {
     transform: scale(1);
 }
 
 
 /* contact css */
-#contact{
+#contact {
     flex-direction: column;
     text-align: center;
 }
-form{
+
+form {
     background: url(images/shapes/contact-bg.jpg) left top no-repeat;
     background-size: cover;
     padding: 40px 0;
@@ -222,23 +261,27 @@ form{
     border-radius: 8px;
     background-attachment: fixed;
 }
-.form-group{
+
+.form-group {
     padding: 8px;
     margin: 8px;
     border: 1px solid darkgrey;
     border-radius: 5px;
 }
-input{
+
+input {
     width: 40%;
     border-style: none;
 
 }
-textarea{
+
+textarea {
     width: 85%;
     resize: none;
 
 }
-.form-btn{
+
+.form-btn {
     width: 20%;
     float: none;
     display: inline-block;
@@ -249,15 +292,18 @@ textarea{
 
 
 /* footer css */
-footer{
+footer {
     background-color: brown;
     padding: 32px 0 90px 0;
     text-align: center;
     margin-top: 80px;
 }
-footer h1{
+
+footer h1 {
     margin-bottom: 22px;
 }
-footer span, footer p{
+
+footer span,
+footer p {
     color: lavenderblush;
 }
