@@ -143,7 +143,7 @@ h3{
     padding: 70px 48px;
     text-align: center;
 }
-.serv-para{
+.text-center{
     text-align: center;
     padding: 0 20em;
 }
@@ -185,4 +185,39 @@ h3{
 }
 .card-col:hover img{
     transform: scale(1);
+}
+
+
+/* contact css */
+#contact{
+    flex-direction: column;
+    text-align: center;
+}
+form{
+    width: 60%;
+    margin: auto;
+}
+.form-group{
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+input{
+    width: 40%;
+    border-style: none;
+
+}
+textarea{
+    width: 85%;
+    resize: none;
+
+}
+.form-btn{
+    width: 20%;
+    float: none;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 30px;
+    font-weight: 700;
 }
